@@ -26,3 +26,8 @@ if varaibles == "G" and "C" and "T" and "A":
     print("Correct answer ")
 else:
     print("Write prope niput ")
+
+
+weight =  int(input("Please write down weight here "))
+convert_kg = weight * 0.45
+print(convert_kg)
