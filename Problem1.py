@@ -14,7 +14,7 @@
 for number in range(69, 80):
     number = number + 1
     print(number)
-
+'''
 # write a program to convert weight into kg
 
 weight = int(input("Please write down weight here: "))  # please put the weight in lbs
@@ -23,11 +23,13 @@ print(convert_kg)
 
 course = "Python's course for beigneers "
 print(course)
-
+'''
 name = "tom"
 name1 = "jerry "
 
-message = name + ' [' + name1 + '] is a cioder'
-msg = f'{name} + {[ name1]}is a coder '
+message = name + ' [' + name1 + '] is a cioder'    # normal string
+msg = f'{name}{[name1]}is a coder '            # formatted string
 print(msg)
 print(message)
+
+
