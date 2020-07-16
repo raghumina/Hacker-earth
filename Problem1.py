@@ -33,3 +33,11 @@ print(msg)
 print(message)
 
 
+msg1 = "Hello how are you"
+
+
+print(msg1.find('o'), msg1.find('w'))
+#print(len(msg1))
+
+type = "the variable is a integer type"
+print(type.replace('integer',"character"))
