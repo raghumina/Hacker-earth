@@ -18,7 +18,11 @@
 # Output: The output should always be a string of characters. In the case of invalid input,
 # you should output Invalid Input as a string.
 
-
 # Solution
 
-
+varaibles = str.upper(input())
+if varaibles == "G" and "C" and "T" and "A":
+    print(varaibles)
+    print("Correct answer ")
+else:
+    print("Write prope niput ")
