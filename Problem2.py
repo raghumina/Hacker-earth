@@ -22,12 +22,4 @@
 
 varaibles = str.upper(input())
 if varaibles == "G" and "C" and "T" and "A":
-    print(varaibles)
-    print("Correct answer ")
-else:
-    print("Write prope niput ")
-
-
-weight =  int(input("Please write down weight here "))
-convert_kg = weight * 0.45
-print(convert_kg)
+ print(varaibles.replace('G','C'),"\n",varaibles.replace('C','G'),"\n",varaibles.replace('T','A'),"\n",varaibles.replace('A','U'))
