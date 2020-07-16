@@ -11,24 +11,23 @@
 
 # Solution
 
-for number in range(69,80):
+for number in range(69, 80):
     number = number + 1
-    print(number )
-
+    print(number)
 
 # write a program to convert weight into kg
 
-weight =  int(input("Please write down weight here: "))  # please put the weight in lbs
+weight = int(input("Please write down weight here: "))  # please put the weight in lbs
 convert_kg = weight * 0.45
 print(convert_kg)
-
 
 course = "Python's course for beigneers "
 print(course)
 
-
 name = "tom"
 name1 = "jerry "
 
-message = name +
+message = name + ' [' + name1 + '] is a cioder'
+msg = f'{name} + {[ name1]}is a coder '
+print(msg)
 print(message)
