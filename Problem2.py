@@ -32,10 +32,10 @@ elif varaibles == "A":
 '''
 
 # LETS TRY ANOTHER WAY TO SOLVE THIS PROBLEM
-input = str(input())
+
 def vairable(input):
  if input == "G" or "C" or "T" or "A":
   print(input.replace("G","C"))
 
 
-print(vairable("G"))
+
