@@ -21,15 +21,7 @@
 # Solution
 
 
-varaibles = str.upper(input())
-if varaibles == "G" in varaibles:
- print(varaibles.replace('G','C'))
-elif varaibles == "C" in varaibles:
- print(varaibles.replace("C","G"))
-elif varaibles == "T" in varaibles:
- print(varaibles.replace("T","A"))
-elif varaibles == "A" in varaibles:
- print(varaibles.replace("A","U"))
-
-
+sequence = str.upper(input())
+if "G" or "C" or "T" or "A" in sequence:
+    print(sequence.replace("G","C"))
 
