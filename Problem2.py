@@ -19,23 +19,17 @@
 # you should output Invalid Input as a string.
 
 # Solution
-'''
+
+
 varaibles = str.upper(input())
-if varaibles == "G":
+if varaibles == "G" in varaibles:
  print(varaibles.replace('G','C'))
-elif varaibles == "C":
+elif varaibles == "C" in varaibles:
  print(varaibles.replace("C","G"))
-elif varaibles == "T":
+elif varaibles == "T" in varaibles:
  print(varaibles.replace("T","A"))
-elif varaibles == "A":
- print(varaibles.replace("A","T"))
-'''
-
-# LETS TRY ANOTHER WAY TO SOLVE THIS PROBLEM
-
-def vairable(input):
- if input == "G" or "C" or "T" or "A":
-  print(input.replace("G","C"))
+elif varaibles == "A" in varaibles:
+ print(varaibles.replace("A","U"))
 
 
 
