@@ -21,5 +21,11 @@
 # Solution
 
 varaibles = str.upper(input())
-if varaibles == "G" and "C" and "T" and "A":
- print(varaibles.replace('G','C'),"\n",varaibles.replace('C','G'),"\n",varaibles.replace('T','A'),"\n",varaibles.replace('A','U'))
+if varaibles == "G":
+ print(varaibles.replace('G','C'))
+elif varaibles == "C":
+ print(varaibles.replace("C","G"))
+elif varaibles == "T":
+ print(varaibles.replace("T","A"))
+elif varaibles == "A":
+ print(varaibles.replace("A","T"))
