@@ -41,3 +41,7 @@ print(msg1.find('o'), msg1.find('w'))
 
 type = "the variable is a integer type"
 print(type.replace('integer',"character"))
+
+
+course = " We have maths here"
+print(course.find("maths"))
