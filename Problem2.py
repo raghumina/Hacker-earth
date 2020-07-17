@@ -19,7 +19,7 @@
 # you should output Invalid Input as a string.
 
 # Solution
-
+'''
 varaibles = str.upper(input())
 if varaibles == "G":
  print(varaibles.replace('G','C'))
@@ -29,3 +29,13 @@ elif varaibles == "T":
  print(varaibles.replace("T","A"))
 elif varaibles == "A":
  print(varaibles.replace("A","T"))
+'''
+
+# LETS TRY ANOTHER WAY TO SOLVE THIS PROBLEM
+input = str(input())
+def vairable(input):
+ if input == "G" or "C" or "T" or "A":
+  print(input.replace("G","C"))
+
+
+print(vairable("G"))
