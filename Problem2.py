@@ -20,8 +20,31 @@
 
 # Solution
 
-
+# 1
+rna = ""
 sequence = str.upper(input())
-if "G" or "C" or "T" or "A" in sequence:
-    print(sequence.replace("G","C"))
+for i in sequence:
+    if i == "G":
+        rna = rna + i.replace("G", "C")
+    elif i == "C":
+        rna = rna + i.replace("C", "G")
+    elif i == "T":
+        rna = rna + i.replace("T", "A")
+    elif i == "A":
+        rna = rna + i.replace("A", "U")
+print(rna)
 
+'''
+
+# 3
+sequence  = str.upper(input("Please enter a sequence "))
+
+if "G" and "C" and "T" and "A" in sequence:
+  rna = sequence.replace("G","C")
+  sequence = sequence.replace("C","G")
+  print(sequence)
+#  rna = sequence.replace("T","A")
+ # rna = sequence.replace("A","U")
+
+
+'''
