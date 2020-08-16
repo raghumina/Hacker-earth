@@ -36,15 +36,4 @@ print(rna)
 
 '''
 
-# 3
-sequence  = str.upper(input("Please enter a sequence "))
-
-if "G" and "C" and "T" and "A" in sequence:
-  rna = sequence.replace("G","C")
-  sequence = sequence.replace("C","G")
-  print(sequence)
-#  rna = sequence.replace("T","A")
- # rna = sequence.replace("A","U")
-
-
 '''
