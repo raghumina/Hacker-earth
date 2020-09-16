@@ -34,6 +34,7 @@ for i in sequence:
         rna = rna + i.replace("A", "U")
 print(rna)
 
+
 '''
 
 '''
